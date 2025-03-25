@@ -7,7 +7,6 @@ This project implements a star schema data warehouse for MyTunes, an online musi
 MyTunes needs to analyze their sales data to make better business decisions. This data warehouse provides a structured way to analyze sales by artist, album, customer, and time periods.
 
 ## Star Schema Design
-![Star Schema](docs/star_schema.png)
 
 The data warehouse follows a star schema with:
 - Fact table: fact_sales (contains sales transactions)
